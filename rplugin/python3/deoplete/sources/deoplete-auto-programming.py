@@ -9,7 +9,7 @@ class Source(Base):
         self.mark = '[ap]'
         self.filetypes = []
         self.min_pattern_length = 0
-        self.rank = 600
+        self.rank = 450
         self.ap_available = False
 
     def on_init(self, context):
